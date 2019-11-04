@@ -1,5 +1,6 @@
 FROM webhippie/alpine:latest
-MAINTAINER Stephane Jourdan <fasten@fastmail.fm>
+
+LABEL maintainer="Aleksandar Puharic xzero@elite7haers.net"
 
 ADD rootfs /
 
