@@ -1,4 +1,4 @@
-FROM nlss/s6-alpine:latest as base
+FROM nlss/base-alpine as base
 
 LABEL maintainer="Aleksandar Puharic xzero@elite7haers.net"
 
@@ -8,7 +8,7 @@ ENV S6_KILL_GRACETIME=6000
 ENV S6_BEHAVIOUR_IF_STAGE2_FAILS=1
 
 # Env
-ENV REFRESHED_AT=2019-11-04
+ENV REFRESHED_AT=2020-06-19
 
 WORKDIR /tmp
 
