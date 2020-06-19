@@ -51,3 +51,4 @@ Options used in this container:
 
 - SSH key authentication
 - Easier user management
+- Proper tagging/versioning
