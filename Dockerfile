@@ -1,4 +1,4 @@
-FROM nlss/base-alpine as base
+FROM nlss/base-alpine:3.12 as base
 
 LABEL maintainer="Aleksandar Puharic xzero@elite7haers.net"
 
